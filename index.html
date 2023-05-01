@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-DOXMLfHhQkvFFp+rWTZwVlPVqdIhpDVYT9csOnHSgWQWPX0v5MCGtjCJbY6ERspU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/iconos/pizzapestañaicon.png">
+    <link rel="stylesheet" href="./Css/style.css">
+
+    <title>Trabajo grupal Codo a Codo</title>
+</head>
+
+<body>
+    <header class="container-fluid d-flex justify-content-center">
+        <!--fluid: ancho del 100% para todos los dispositivos-->
+        <h1 id="titulo" class="text-dark mb-0 p-2 fw-bold">LA <br>Pizzeria</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-warning p-3 fw-medium fs-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="contacto.html">Contactanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="ubicacion.html">Dónde estamos</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-black" href="pizzas.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Menú</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-black" href="pizzas.html">Pizzas</a></li>
+                            <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item text-black" href="delivery.html">Pedir ahora</a></li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide pb-5" data-bs-ride="carousel">
+        <div class="carousel-inner ">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./img/pizzeria03-1.jpg" class="d-block w-100 h-50" alt="slide1">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/pizzeria05-1.jpg" class="d-block w-100 h-50" alt="slide2">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/pizzeria06-1.jpg" class="d-block w-100 h-50" alt="slide3">
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class=" mx-auto text-center pt-5">
+        <h1 class="display-4 pt-5 p-2 border-top border-3 fw-bold">Acerca de</h1>
+        <h2 class="display-6 lead text-warning text-opacity-75 pt-2 mb-0 p-2 fw-semibold">
+            ?Qué podemos decir¿
+        </h2>
+        <h2 class="display-6 lead text-warning text-opacity-75 pt-2 pb-4 mb-0 p-2 fw-semibold">
+            .Nos obsesionan las pizzas
+        </h2>
+
+        <p class="text-dark ">
+            Amamos que la coman de parados en el mostrador,
+            o en la mesa con amigos<br>
+            .Con la mano o con cubiertos <br>
+            .Nos deleita que entren por el olorcito y que la coman fría o caliente<br>
+            .Que se la lleven para desayunar al día siguiente<br>
+            .Amamos que la pizza sea parte de nuestras vidas<br>
+            ,Tanto la amamos, que estamos abiertos desde la mañana hasta la madrugada<br>
+            .porque no hay hora para comer una buena pizza<br>
+            .Una pizza hecha con amor, nuestra pizza
+        </p>
+        <h5 class="text-center" id="hashtag">LOCOS POR LA PIZZA#</h5>
+    </section>
+    <section class="contadores">
+        <div class="card-group container-fluid justify-content-center">
+            <div class="">
+                <div class="row pt-5 pb-5">
+                    <div class="col-lg-12 col-md-6 col-sm-12">
+                        <div class="card " id="contador">
+                            <div class="card-body">
+                                <div class="fondo_color m-0 p-0 " id="fondo_color">
+                                    <img width="55" class="iconpizza" src="./img/iconos/pizzaicon.png" alt="iconpizza">
+                                </div>
+                                <div class="number text-center text-warning" id="number"></div>
+                                <h4 class="text-center text-dark">HACE 1000 PIZZAS</h4>
+                                <h4 class="text-center text-dark">QUE HACEMOS PIZZA</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="pb-5">
+                <div class="row pt-5 pb-5">
+                    <div class="col-lg-12 col-md-6 col-sm-12">
+                        <div class="card " id="contador">
+                            <div class="card-body">
+                                <div class="color_fondo m-0 p-0" id="color_fondo">
+                                    <img width="50" class="iconpizzaporcion" src="./img/iconos/pizzaporcionicon.png"
+                                        alt="iconpizzaporcion">
+                                </div>
+                                <div class="numero text-center text-warning" id="numero"></div>
+                                <h4 class="text-center text-dark">HACE 12000 PORCIONES</h4>
+                                <h4 class="text-center text-dark">QUE HACEMOS PIZZA</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="w-100 d-flex align-items justify-content-center flex-wrap bg-warning">
+        <div class="text-center pt-3">
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram text-black text-center align-items-center "></i></a>
+            <a href="https://wwww.facebook.com/"><i class="bi bi-facebook text-black text-center align-items-center "></i></a>
+            <a href="https://web.whatsapp.com/"><i class="bi bi-whatsapp text-black text-center align-items-center "></i></a>
+            <p class="fs-5 pt-2 text-black text-center">LA Pizzeria &copy; Todos Los Derechos Reservados 2023</p>
+            <a class="fs-5 text-black text-center fw-semibold text-decoration-none" href="">- NewGroup -</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js">
+
+    </script>
+    <script src="./main.js"></script>
+
+
+</body>
+
+</html>

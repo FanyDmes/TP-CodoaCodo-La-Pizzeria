@@ -1,0 +1,241 @@
+body {
+    overflow-x: hidden;
+}
+
+/*
+HEAD
+*/
+
+#titulo {
+    font-size: 55px;
+}
+
+/*
+ACERCA DE
+*/ 
+
+#about p {
+    font-size: 20px;
+}
+
+#about h2 {
+    font-size: 48px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.container {
+    margin-top: 8%;
+}
+
+#hashtag {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 80px;
+    padding-top: 40px;
+}
+
+
+/*
+CONTADORES
+*/
+
+#contador {
+    width: 20em;
+    border-radius: 15px;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.numero {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.iconpizzaporcion {
+    margin-right: 100px;
+}
+
+.iconpizza {
+    margin-right: 110px;
+}
+
+/*
+MENU
+*/
+
+.menu {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.card{
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#cardbody {
+    padding: 20px 15px;
+    text-align: justify;
+}
+
+.card-img-top {
+    border-radius: 8px 8px 0 0;
+
+}
+
+#btnmenu {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.banner-delivey img{
+    width: 100%;
+    height: 100%;
+}
+
+#iconrappi{
+    width: 105px; ;
+    height: auto;
+    justify-content: center;
+    border-radius: 50px;
+}
+#iconpedidos{
+    width: 102px; ;
+    height: auto;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+/*
+PIZZAS
+*/
+
+.inner {
+    overflow: hidden;
+}
+
+inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
+
+/*
+UBICACION
+*/
+
+#ubicacion {
+    background: #fefefe;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.row {
+    padding-top: 5px;
+    margin-left: 45px;
+    padding-right: 25px;
+}
+
+.wrapper h2 {
+    font-family: 'Codystar', cursive;
+}
+#typewriter {
+    font-size: 110px;
+    font-family: 'Londrina Sketch', cursive;
+}
+
+#mapa {
+    width: 100%;
+    height: 390px;
+}
+
+#cardfachada {
+    border: 4px double rgb(248, 211, 4);
+}
+
+#card-map {
+    border: 4px double rgb(248, 211, 4);
+}
+
+#fachada {
+    width: 100%;
+    height: 340px;
+}
+
+/*
+FOOTER
+*/
+
+footer {
+    background-color: black;
+    min-height: 100px;
+}
+
+footer p {
+    text-align: center;
+    justify-content: center;
+}
+
+footer i {
+    font-size: 26px;
+    padding: 0 8px;
+
+}
+
+
+
+/*====MEDIA QUERIES PANTALLA ANCHA=====*/
+@media(max-width:1200px) {
+    #ubicacion {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+/*====MEDIA QUERIES PANTALLA SM=====*/
+
+@media (max-width:768px) {
+    #about {
+        width: 90% !important;
+    }
+}
+
+@media(min-width: 480px) {
+    .menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+    .card{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    #cardbody {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-desciption{
+        flex-grow: 1;
+    }
+
+}
