@@ -23,6 +23,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap" rel="stylesheet">
     <link rel="icon" href="./img/iconos/pizzapestañaicon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./Css/style.css">
 
     <title>Dónde estamos</title>
@@ -31,7 +32,7 @@
 <body>
     <header class="container-fluid bg-warning-subtle d-flex justify-content-center">
         <!--fluid: ancho del 100% para todos los dispositivos-->
-        <h1 id="titulo" class="text-dark mb-0 p-2 fw-bold">LA <br>Pizzeria</h1>
+        <h1 id="titulo" class="text-dark mb-0 p-2 fw-bold" data-aos="zoom-in" data-aos-duration="3000">LA <br>Pizzeria</h1>
     </header>
     <nav class="navbar navbar-expand-lg bg-warning p-3 fw-medium fs-5">
         <div class="container-fluid">
@@ -159,8 +160,10 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js">
-
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
     <script src="./Js/ubicacion.js"></script>
 
