@@ -1,14 +1,5 @@
-const app = document.getElementById('typewriter');
+// CONTADORES //
 
-const typewriter = new Typewriter(app, {
-    loop: true,
-    delay: 150
-});
-
-typewriter
-    .typeString('LOS ESPERAMOS!!')
-    .pauseFor(1500)
-    .start();
 
 const color_fondo = document.getElementById('color_fondo')
 const numero = document.getElementById('numero')
@@ -35,10 +26,6 @@ let time = setInterval(() => {
         clearInterval(time)
     }
 }, 80);
-
-
-
-
 
 
 
