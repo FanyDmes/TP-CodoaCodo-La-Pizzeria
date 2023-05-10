@@ -29,5 +29,6 @@ form.addEventListener("submit", e=>{
         parrafo.innerHTML = warnings
      }else{
         parrafo.innerHTML = "Iniciaste Sesión"
+        window.location = "index.html";
      }
 })
