@@ -404,7 +404,8 @@ UBICACION
     text-align: center;
     background-color: rgb(255, 187, 0);
     font-size: 30px;
-    padding-top: 5px;
+    padding-top: 33px;
+    padding-bottom: 33px;
 }
 
 .wrapper div a {
@@ -482,6 +483,11 @@ footer i {
     color: black;
     text-align: center;
     align-items: center;
+}
+#contact{
+    width: 100vw ;
+    position:absolute;
+    left:-0.5%;
 }
 
 #newgroup {
@@ -571,7 +577,7 @@ footer i {
 
 
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 800px) {
 
     .barra {
         height: 65px;
@@ -660,4 +666,7 @@ footer i {
         flex-direction: column;
     }
 
+}
+@media(min-width: 480px){
+    
 }
