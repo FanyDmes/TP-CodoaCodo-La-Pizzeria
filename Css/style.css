@@ -8,8 +8,10 @@ HEAD
 header {
     width: 100%;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: initial;
+    text-align: start;
+    margin: 5px;
+    padding-left: 50px;
 }
 
 header.delivery {
