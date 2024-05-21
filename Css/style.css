@@ -84,7 +84,12 @@ ul.show {
 ACERCA DE
 */
 
-#about h1 {
+section .about{
+    justify-content: center;
+    text-align: center;
+}
+
+.about h1 {
     font-size: 55px;
     color: black;
     padding-top: 5px;
@@ -117,7 +122,7 @@ ACERCA DE
     align-items: center;
 }
 
-#about p {
+.about p {
     color: #252525;
     font-size: 20px;
     padding-top: 5px;
@@ -127,7 +132,7 @@ ACERCA DE
     align-items: center;
 }
 
-#about h2 {
+.about h2 {
     font-size: 48px;
     font-family: 'Fredericka the Great', cursive;
 }
@@ -281,8 +286,8 @@ MENU
 
 .img_pizzas {
     border-radius: 8px 8px 0 0;
-    width: 417px;
-    height: 359px;
+    width: 100%;
+    height: auto;
 }
 
 #btnmenu {
